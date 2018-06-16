@@ -1,0 +1,84 @@
+/* Fonts styles */
+
+h1, h2 {
+	font-family: "Pragati Narrow";
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: rgb(68, 68, 68);
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p, i, a {
+	font-family: "Open Sans";
+	color: rgb(50, 50, 50);
+}
+
+strong {
+	font-family: "Pragati Narrow";
+	font-size: 22.4px;
+	letter-spacing: 2px;
+	color: rgb(50, 50, 50);
+}
+
+.light {
+	color: rgba(50, 50, 50, 0.5);
+}
+
+.fa {
+	color: rgb(68, 68, 68);
+}
+
+.section .title-icon {
+	font-size: 25px;
+	text-align: center;
+}
+
+.section .title-icon.smaller {
+	font-size: 22px;
+	padding-top: 3px;
+}
+
+.section .icons .fa {
+	font-size: 48px;
+}
+
+.section .entry .name {
+	line-height: 30.5px;
+}
+
+.section .social .fa {
+	font-size: 54px;
+}
+
+.header .title-icon {
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-align: center;
+}
+
+.header .title-icon .fa {
+	color: rgb(255, 255, 255);
+	line-height: 2.8em;
+}
+
+.header .title {
+	color: rgb(255, 255, 255);
+	line-height: 2.5em;
+}
+
+@media screen and (max-width: 960px) {
+	h1, h2, p, strong,
+	.section .entry {
+		text-align: center;
+	}
+	.header .title-icon {
+		display: none;
+	}
+}

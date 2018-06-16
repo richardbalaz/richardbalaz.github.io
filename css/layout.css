@@ -1,0 +1,86 @@
+body {
+	background-image: url("../img/pattern.png");
+}
+
+container {
+	max-width: 755px;
+	margin-top: 64px;
+	padding-bottom: 1px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 3px 2px rgba(201, 187, 201, 0.3);
+	padding-top: 0px;
+}
+
+.section {
+	margin-top: 32px;
+	margin-bottom: 25px;
+}
+
+.section .title {
+	margin-bottom: 20px;
+}
+
+.section .profile {
+	text-align: center;
+	padding-right: 15px;
+}
+
+.section .profile .profile-img {
+	max-width: 200px;
+	width: 100%;
+	border-radius: 50%;
+	position: relative;
+	bottom: 20px;
+}
+
+.section.about-me {
+	margin-bottom: -50px;
+}
+
+.section .entry {
+	margin-bottom: 10px;
+}
+
+.section .social {
+	margin-top: 20px;
+}
+
+.section .icon-each {
+	text-align: center;
+}
+
+.header {
+	background-color: rgb(68, 68, 68);
+}
+
+@media screen and (max-width: 960px) {
+	container {
+		margin-top: 0px;
+	}
+
+	.section .profile .profile-img {
+		position: static;
+	}
+
+	.section .content {
+		padding: 0.75em;
+	}
+
+	.section .profile {
+		order: 1;
+		padding-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	.section .shifter {
+		order: 2;
+	}
+
+	.section .content {
+		order: 3;
+	}
+
+	.section.about-me {
+		margin-bottom: 25px;
+	}
+}
